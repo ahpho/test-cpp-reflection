@@ -1,7 +1,6 @@
-E:\work\work_cpp\test-cpp-reflection
-把项目取到此路径即可。
+把项目取到此路径 E:\work\work_cpp\test-cpp-reflection 即可。
 
-需要编译64位的话，用cmake重新生成MetaRuntime的工程
+需要编译64位的话，用cmake重新生成MetaRuntime的工程。
 
-Generated\.meta-cache把这个文件删掉，再运行gen.bat，即可生成cpp（一共3个）
+Generated\.meta-cache把这个文件删掉，再运行gen.bat即可生成cpp（一共3个）。
 

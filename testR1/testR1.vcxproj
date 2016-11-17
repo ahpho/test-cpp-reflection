@@ -146,9 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Generated\TestR\TestProperties.Generated.h" />
     <ClInclude Include="Generated\TestR\TestTypes.Generated.h" />
     <ClInclude Include="stdafx.h" />
