@@ -1,351 +1,348 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantContainer.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantContainer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Argument.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Argument.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayWrapper.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Constructor.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Constructor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Destructor.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Destructor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Enum.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Enum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\EnumBase.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Field.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Field.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Function.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Global.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Global.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Invokable.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Invokable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaContainer.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaContainer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaManager.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Method.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Method.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ObjectWrapper.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ObjectWrapper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Precompiled.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Precompiled.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ReflectionDatabase.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionDatabase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ReflectionModule.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionModule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Type.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Type.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeCreator.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeCreator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeData.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Variant.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Variant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantBase.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantBase.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Common\Lib\json11.cpp">
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Common\Lib\json11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantPolicy.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantPolicy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Argument.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Argument.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArgumentConfig.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArgumentConfig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Array.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Array.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayVariantContainer.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayVariantContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayWrapper.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayWrapperBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapperBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayWrapperContainer.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapperContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Constructor.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Constructor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ConstructorInvoker.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ConstructorInvoker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ConstructorInvokerBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ConstructorInvokerBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Destructor.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Destructor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\DestructorInvoker.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\DestructorInvoker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\DestructorInvokerBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\DestructorInvokerBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Enum.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Enum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\EnumBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\EnumContainer.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Field.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Field.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FieldGetter.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldGetter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FieldGetterBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldGetterBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FieldSetter.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldSetter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FieldSetterBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldSetterBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Function.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Function.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FunctionInvoker.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FunctionInvoker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FunctionInvokerBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FunctionInvokerBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Global.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\GlobalGetter.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalGetter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\GlobalGetterBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalGetterBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\GlobalSetter.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalSetter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\GlobalSetterBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalSetterBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Invokable.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Invokable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\InvokableConfig.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\InvokableConfig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Macros.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Macros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Meta.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Meta.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaContainer.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaManager.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaProperty.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaProperty.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaTraits.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaTraits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Method.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Method.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MethodInvoker.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MethodInvoker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MethodInvokerBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MethodInvokerBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Object.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Object.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ObjectWrapper.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ObjectWrapper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Precompiled.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Precompiled.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ReflectionDatabase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionDatabase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ReflectionModule.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionModule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\RuntimeMetaProperties.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\RuntimeMetaProperties.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Type.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Type.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeCreator.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeCreator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeConfig.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeConfig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeData.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeInfo.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeID.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeID.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Variant.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Variant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantBase.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantBase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantContainer.h">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Array.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Array.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\EnumContainer.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\EnumContainer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\FieldGetter.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FieldGetter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\FieldSetter.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FieldSetter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Function.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Function.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\FunctionInvoker.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FunctionInvoker.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\GlobalGetter.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\GlobalGetter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\GlobalSetter.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\GlobalSetter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Invokable.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Invokable.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\MetaManager.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MetaManager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\MetaProperty.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MetaProperty.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Method.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Method.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\MethodInvoker.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MethodInvoker.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ReflectionDatabase.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ReflectionDatabase.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Type.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Type.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\TypeCreator.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeCreator.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\TypeData.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeData.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\TypeInfo.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeInfo.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\TypeUnpacker.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeUnpacker.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Variant.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Variant.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\VariantContainer.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VariantContainer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\VariantContainerStandardTypes.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VariantContainerStandardTypes.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\VoidFunctionInvoker.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VoidFunctionInvoker.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\VoidMethodInvoker.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VoidMethodInvoker.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Argument.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Argument.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ArrayVariantContainer.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayVariantContainer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapper.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapper.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapperContainer.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapperContainer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Constructor.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Constructor.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ConstructorInvoker.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ConstructorInvoker.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\DestructorInvoker.hpp">
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\DestructorInvoker.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{4A7BD9C6-2BCB-3599-BEA6-7697CEA4936E}</UniqueIdentifier>
+      <UniqueIdentifier>{0A37F213-A35A-3CDA-9586-D027877356DC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{F159DD74-A85B-3FC7-9A51-A058F5B280AC}</UniqueIdentifier>
+      <UniqueIdentifier>{45865173-6104-34A5-8E16-9A4C879C36F2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

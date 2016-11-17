@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -57,28 +57,28 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MetaRuntime.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MetaRuntime</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MetaRuntime.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MetaRuntime</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MetaRuntime.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MetaRuntime</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MetaRuntime.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MetaRuntime</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MetaRuntime.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MetaRuntime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MetaRuntime.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MetaRuntime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MetaRuntime.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MetaRuntime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MetaRuntime.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MetaRuntime</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -127,14 +127,15 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -147,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -161,14 +162,15 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -181,7 +183,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -199,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -214,165 +216,109 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime -BC:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/build --check-stamp-file C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/CMakeLists.txt;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-Determine-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Internal\FeatureTesting.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\feature_tests.cxx;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\CMake\Precompiled.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime -BC:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/build --check-stamp-file C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/CMakeLists.txt;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-Determine-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Internal\FeatureTesting.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\feature_tests.cxx;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\CMake\Precompiled.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime -BC:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/build --check-stamp-file C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/CMakeLists.txt;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-Determine-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Internal\FeatureTesting.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\feature_tests.cxx;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\CMake\Precompiled.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime -BC:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/build --check-stamp-file C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\generate.stamp
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/CMakeLists.txt;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystem.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-Determine-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\GNU-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCXXCompiler.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompilerABI.cpp;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Internal\FeatureTesting.cmake;E:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\feature_tests.cxx;E:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXCompiler.cmake.in;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\3.7.0\CMakeCXXCompiler.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\CMake\Precompiled.cmake;C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\build\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantPolicy.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Argument.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArgumentConfig.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Array.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayVariantContainer.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayWrapper.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayWrapperBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayWrapperContainer.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Constructor.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ConstructorInvoker.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ConstructorInvokerBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Destructor.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\DestructorInvoker.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\DestructorInvokerBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Enum.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\EnumBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\EnumContainer.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Field.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FieldGetter.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FieldGetterBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FieldSetter.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FieldSetterBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Function.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FunctionInvoker.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\FunctionInvokerBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Global.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\GlobalGetter.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\GlobalGetterBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\GlobalSetter.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\GlobalSetterBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Invokable.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\InvokableConfig.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Macros.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Meta.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaContainer.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaManager.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaProperty.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaTraits.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Method.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MethodInvoker.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MethodInvokerBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Object.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ObjectWrapper.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Precompiled.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ReflectionDatabase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ReflectionModule.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\RuntimeMetaProperties.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Type.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeCreator.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeConfig.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeData.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeInfo.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeID.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Variant.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantBase.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantContainer.h" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Array.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\EnumContainer.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\FieldGetter.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\FieldSetter.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Function.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\FunctionInvoker.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\GlobalGetter.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\GlobalSetter.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Invokable.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\MetaManager.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\MetaProperty.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Method.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\MethodInvoker.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ReflectionDatabase.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Type.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\TypeCreator.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\TypeData.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\TypeInfo.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\TypeUnpacker.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Variant.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\VariantContainer.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\VariantContainerStandardTypes.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\VoidFunctionInvoker.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\VoidMethodInvoker.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Argument.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ArrayVariantContainer.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapper.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapperContainer.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\Constructor.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\ConstructorInvoker.hpp" />
-    <ClInclude Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Impl\DestructorInvoker.hpp" />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantContainer.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Argument.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ArrayWrapper.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Constructor.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Destructor.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Enum.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\EnumBase.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Field.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Function.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Global.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Invokable.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaContainer.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\MetaManager.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Method.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ObjectWrapper.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Precompiled.cpp" >
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantPolicy.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Argument.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArgumentConfig.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Array.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayVariantContainer.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapper.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapperBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapperContainer.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Constructor.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ConstructorInvoker.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ConstructorInvokerBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Destructor.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\DestructorInvoker.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\DestructorInvokerBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Enum.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumContainer.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Field.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldGetter.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldGetterBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldSetter.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldSetterBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Function.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FunctionInvoker.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FunctionInvokerBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Global.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalGetter.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalGetterBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalSetter.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalSetterBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Invokable.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\InvokableConfig.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Macros.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Meta.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaContainer.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaManager.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaProperty.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaTraits.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Method.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MethodInvoker.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MethodInvokerBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Object.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ObjectWrapper.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Precompiled.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionDatabase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionModule.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\RuntimeMetaProperties.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Type.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeCreator.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeConfig.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeData.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeInfo.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeID.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Variant.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantBase.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantContainer.h" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Array.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\EnumContainer.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FieldGetter.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FieldSetter.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Function.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FunctionInvoker.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\GlobalGetter.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\GlobalSetter.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Invokable.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MetaManager.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MetaProperty.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Method.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MethodInvoker.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ReflectionDatabase.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Type.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeCreator.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeData.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeInfo.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeUnpacker.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Variant.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VariantContainer.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VariantContainerStandardTypes.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VoidFunctionInvoker.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VoidMethodInvoker.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Argument.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayVariantContainer.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapper.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapperContainer.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Constructor.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ConstructorInvoker.hpp" />
+    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\DestructorInvoker.hpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantContainer.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Argument.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapper.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Constructor.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Destructor.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Enum.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumBase.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Field.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Function.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Global.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Invokable.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaContainer.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaManager.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Method.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ObjectWrapper.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Precompiled.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Precompiled.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -382,14 +328,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Precompiled.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ReflectionDatabase.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\ReflectionModule.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Type.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeCreator.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\TypeData.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\Variant.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Runtime\VariantBase.cpp"  />
-    <ClCompile Include="C:\Users\kuangsihao1\Desktop\testR1\testR1\CPP-Reflection\Common\Lib\json11.cpp" >
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionDatabase.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionModule.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Type.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeCreator.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeData.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Variant.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantBase.cpp" />
+    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Common\Lib\json11.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /Y- %(AdditionalOptions)</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /Y- %(AdditionalOptions)</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> /Y- %(AdditionalOptions)</AdditionalOptions>
@@ -397,8 +343,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/kuangsihao1/Desktop/testR1/testR1/CPP-Reflection/Runtime/build/ZERO_CHECK.vcxproj">
-      <Project>1D2E659E-2119-38C4-9F75-37C0903085A2</Project>
+    <ProjectReference Include="E:/work/work_cpp/test-cpp-reflection/testR1/CPP-Reflection/Runtime/build/ZERO_CHECK.vcxproj">
+      <Project>FA21F6CA-D8E6-3F2A-9686-D0414D9D390D</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
