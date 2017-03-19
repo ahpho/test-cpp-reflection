@@ -30,7 +30,7 @@
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MetaRuntime.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MetaRuntime</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MetaRuntime.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MetaRuntime</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MetaRuntime.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">MetaRuntime</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MetaRuntime.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">MetaRuntime</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -132,10 +132,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -148,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -183,7 +183,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -201,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common;D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\..\Common\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,109 +216,109 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantPolicy.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Argument.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArgumentConfig.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Array.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayVariantContainer.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapper.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapperBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapperContainer.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Constructor.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ConstructorInvoker.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ConstructorInvokerBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Destructor.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\DestructorInvoker.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\DestructorInvokerBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Enum.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumContainer.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Field.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldGetter.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldGetterBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldSetter.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldSetterBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Function.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FunctionInvoker.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FunctionInvokerBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Global.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalGetter.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalGetterBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalSetter.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalSetterBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Invokable.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\InvokableConfig.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Macros.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Meta.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaContainer.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaManager.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaProperty.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaTraits.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Method.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MethodInvoker.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MethodInvokerBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Object.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ObjectWrapper.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Precompiled.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionDatabase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionModule.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\RuntimeMetaProperties.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Type.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeCreator.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeConfig.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeData.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeInfo.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeID.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Variant.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantBase.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantContainer.h" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Array.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\EnumContainer.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FieldGetter.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FieldSetter.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Function.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FunctionInvoker.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\GlobalGetter.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\GlobalSetter.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Invokable.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MetaManager.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MetaProperty.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Method.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MethodInvoker.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ReflectionDatabase.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Type.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeCreator.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeData.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeInfo.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeUnpacker.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Variant.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VariantContainer.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VariantContainerStandardTypes.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VoidFunctionInvoker.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VoidMethodInvoker.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Argument.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayVariantContainer.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapper.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapperContainer.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Constructor.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ConstructorInvoker.hpp" />
-    <ClInclude Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\DestructorInvoker.hpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantContainer.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Argument.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapper.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Constructor.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Destructor.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Enum.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumBase.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Field.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Function.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Global.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Invokable.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaContainer.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaManager.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Method.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ObjectWrapper.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Precompiled.cpp">
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantPolicy.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Argument.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArgumentConfig.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Array.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayVariantContainer.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapper.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapperBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapperContainer.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Constructor.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ConstructorInvoker.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ConstructorInvokerBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Destructor.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\DestructorInvoker.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\DestructorInvokerBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Enum.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumContainer.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Field.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldGetter.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldGetterBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldSetter.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FieldSetterBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Function.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FunctionInvoker.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\FunctionInvokerBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Global.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalGetter.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalGetterBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalSetter.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\GlobalSetterBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Invokable.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\InvokableConfig.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Macros.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Meta.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaContainer.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaManager.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaProperty.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaTraits.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Method.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MethodInvoker.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MethodInvokerBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Object.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ObjectWrapper.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Precompiled.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionDatabase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionModule.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\RuntimeMetaProperties.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Type.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeCreator.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeConfig.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeData.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeInfo.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeID.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Variant.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantBase.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantContainer.h" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Array.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\EnumContainer.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FieldGetter.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FieldSetter.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Function.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\FunctionInvoker.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\GlobalGetter.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\GlobalSetter.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Invokable.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MetaManager.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MetaProperty.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Method.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\MethodInvoker.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ReflectionDatabase.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Type.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeCreator.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeData.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeInfo.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\TypeUnpacker.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Variant.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VariantContainer.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VariantContainerStandardTypes.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VoidFunctionInvoker.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\VoidMethodInvoker.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Argument.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayVariantContainer.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapper.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ArrayWrapperContainer.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\Constructor.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\ConstructorInvoker.hpp" />
+    <ClInclude Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Impl\DestructorInvoker.hpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantContainer.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Argument.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ArrayWrapper.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Constructor.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Destructor.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Enum.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\EnumBase.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Field.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Function.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Global.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Invokable.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaContainer.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\MetaManager.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Method.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ObjectWrapper.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Precompiled.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Precompiled.h</PrecompiledHeaderFile>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -328,14 +328,14 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Precompiled.h</PrecompiledHeaderFile>
     </ClCompile>
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionDatabase.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionModule.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Type.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeCreator.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeData.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Variant.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantBase.cpp" />
-    <ClCompile Include="E:\work\work_cpp\test-cpp-reflection\testR1\CPP-Reflection\Common\Lib\json11.cpp">
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionDatabase.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\ReflectionModule.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Type.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeCreator.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\TypeData.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\Variant.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Runtime\VariantBase.cpp" />
+    <ClCompile Include="D:\work\Github\test-cpp-reflection\testR1\CPP-Reflection\Common\Lib\json11.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /Y- %(AdditionalOptions)</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /Y- %(AdditionalOptions)</AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> /Y- %(AdditionalOptions)</AdditionalOptions>

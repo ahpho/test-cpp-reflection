@@ -6,8 +6,8 @@
 ** --------------------------------------------------------------------------*/
 
 
-#include "E:\work\work_cpp\test-cpp-reflection\testR1\Generated\TestR\TestProperties.Generated.h"
-#include "E:\work\work_cpp\test-cpp-reflection\testR1\TestR/TestProperties.h"
+#include "D:\work\Github\test-cpp-reflection\testR1\Generated\TestR\TestProperties.Generated.h"
+#include "D:\work\Github\test-cpp-reflection\testR1\TestR/TestProperties.h"
 
 #include <ReflectionDatabase.h>
 

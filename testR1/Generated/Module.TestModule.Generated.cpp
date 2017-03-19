@@ -6,15 +6,15 @@
 ** --------------------------------------------------------------------------*/
 
 
-#include "E:\work\work_cpp\test-cpp-reflection\testR1\TestR\TestReflectionModule.h"
+#include "D:\work\Github\test-cpp-reflection\testR1\TestR\TestReflectionModule.h"
 
 ///////////////////////////////////////////////////////////////////////////////
 // Module Files
 ///////////////////////////////////////////////////////////////////////////////
 
 
-#include "E:\work\work_cpp\test-cpp-reflection\testR1\Generated\TestR\TestProperties.Generated.h"
-#include "E:\work\work_cpp\test-cpp-reflection\testR1\Generated\TestR\TestTypes.Generated.h"
+#include "D:\work\Github\test-cpp-reflection\testR1\Generated\TestR\TestProperties.Generated.h"
+#include "D:\work\Github\test-cpp-reflection\testR1\Generated\TestR\TestTypes.Generated.h"
 
 namespace m = ursine::meta;
 
